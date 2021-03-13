@@ -19,3 +19,6 @@ import './src/application.scss';
 
 // This will enable to work with jQuery
 global.$ = jQuery;
+
+require("trix")
+require("@rails/actiontext")
