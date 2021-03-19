@@ -25,7 +25,10 @@ gem 'jbuilder', '~> 2.7'
 ### Gem's by Ali Area
 gem 'devise', '~> 4.7', '>= 4.7.3'
 gem 'simple_form', '~> 5.1'
-#gem 'rmagick', '~> 4.2', '>= 4.2.2'
+gem 'mini_magick'
+gem 'faker'
+gem 'will_paginate'
+gem 'friendly_id'
 ###
 
 # Use Active Storage variant

@@ -1,15 +1,7 @@
 1) fix the views
-2) edit notes
-3) edit the link to homepage through post name
-4) make ImageMagick work
-5) if ImageMagick doens't work delete all the crap that it created && display image with smth else
-
-gem install rmagick --platform=ruby -- --with-opt-lib='C:/ImageMagick/ImageMagick-6.9.9-Q16-HDRI/lib' --with-opt-include='C:/ImageMagick/ImageMagick-6.9.9-Q16-HDRI/include'
-
-gem install rmagick --platform=ruby -- '--with-opt-dir=C:/ImageMagick/ImageMagick-6.9.9-Q16-HDRI'
-
-gem install rmagick
-
-set CPATH=C:\ImageMagick\ImageMagick-6.9.9-Q16-HDRI\include
-set LIBRARY_PATH=C:\ImageMagick\ImageMagick-6.9.9-Q16-HDRI\lib
+2) edit the link to homepage through post name
+3) make ImageMagick work
+4) if ImageMagick doens't work delete all the crap that it created && display image with smth else
+5) add functionality to be able to edit and delete posts for admin
+6) fix the notifications
 
