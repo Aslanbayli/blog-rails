@@ -1,4 +1,3 @@
-<p id="notice"><%= notice %></p>
 
 <div class='container'>
 
@@ -18,9 +17,16 @@
               <%= post.updated_at.strftime("%A, %B %e, %Y") %> by <%= post.user.username %> | <%= pluralize(post.views, "View") %>
             </small>
           </p>
-          <p>
-            <%= link_to("Destroy", post, :method => :delete, :confirm => "Are you sure?") %>
-          </p>
+
+          <% if current_user %>
+            <% if current_user.admin %>
+              <p>
+                <%= link_to("Destroy", post, :method => :delete, :confirm => "Are you sure?") %> | 
+                <%= link_to "Edit", edit_post_path(post) %>
+              </p>
+            <% end %>
+          <% end %>
+
         </div>
       </div>
     </div>
@@ -31,10 +37,9 @@
       <%= will_paginate @posts, :container => false %>
     </div>
   </div>
-  
+
 </div>
 
 
-<%= link_to 'New Post', new_post_path %>
 
 

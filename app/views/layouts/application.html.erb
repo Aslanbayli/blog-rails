@@ -13,7 +13,12 @@
   <body>
     <%= render 'layouts/navbar' %>
     <br>
+    <% if notice%>
+      <%= render 'layouts/alert' %>
+    <% end %>
+    <br>
     <br>
     <%= yield %>
+    <br>
   </body>
 </html>

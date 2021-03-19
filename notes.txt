@@ -1,7 +1,0 @@
-1) fix the views
-2) edit the link to homepage through post name
-3) make ImageMagick work
-4) if ImageMagick doens't work delete all the crap that it created && display image with smth else
-5) add functionality to be able to edit and delete posts for admin
-6) fix the notifications
-
