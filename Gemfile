@@ -28,6 +28,7 @@ gem 'mini_magick'
 gem 'faker'
 gem 'will_paginate'
 gem 'friendly_id'
+gem "aws-sdk-s3", require: false
 ###
 
 # Use Active Storage variant
